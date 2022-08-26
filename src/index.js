@@ -1,16 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./components/App";
-import greetings, { day, month } from "./Math.js";
+import { add, sub, mul, div, mod } from "./calculations";
 
 // using functions
 
 ReactDOM.render(
-  <div style={{ backgroundColor: "black" }}>
-    <h2 style={{ color: "red" }}>{greetings} </h2>
-    <h2 style={{ color: "Green" }}>{day()} </h2>
-    <h2 style={{ color: "Yellow" }}>{month()} </h2>
-    <App />
+  <div style={{ backgroundColor: "#FDEEDC" }}>
+    <h2 style={{ color: "#F94892" }}>{add(1, 2)} </h2>
+    <h2 style={{ color: "Green" }}>{sub(6, 2)} </h2>
+    <h2 style={{ color: "#D36B00" }}>{mul(9, 1)} </h2>
+    <h2 style={{ color: "#A62349" }}>{div(6, 3)} </h2>
+    <h2 style={{ color: "#6FEDD6" }}>{mod(9, 1)} </h2>
   </div>,
   document.getElementById("root")
 );
