@@ -1,0 +1,17 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.head {
+  color: red;
+}
+
+.foodlist {
+  color: aqua;
+}
+.img {
+  padding: 2%;
+  margin: 1%;
+}
+
